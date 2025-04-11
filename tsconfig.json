@@ -18,7 +18,9 @@
       "resolveJsonModule": true,
       "baseUrl": ".",
       "paths": {
-        "@/*": ["shadcn/*"]
+        "@/*": ["shadcn/*"],
+        "Utils/*": ["src/utils/*"],
+        "Types/*": ["src/types/*"]
       }
     }
   }

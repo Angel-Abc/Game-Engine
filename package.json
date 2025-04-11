@@ -8,8 +8,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
-    "watch": "webpack --watch --mode development",
-    "start": "webpack serve --mode development --open"
+    "watch": "webpack --watch --mode development"
   },
   "devDependencies": {
     "@radix-ui/react-slot": "^1.1.2",

@@ -18,6 +18,8 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
         alias: {
             '@': path.resolve(__dirname, 'shadcn/'),
+            Utils: path.resolve(__dirname, 'src/utils/'),
+            Types: path.resolve(__dirname, 'src/types/')
         }
     },
     module: {
