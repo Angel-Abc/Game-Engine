@@ -19,8 +19,9 @@
       "baseUrl": ".",
       "paths": {
         "@/*": ["shadcn/*"],
+        "Game/*": ["src/game/*"],
+        "Types/*": ["src/types/*"],
         "Utils/*": ["src/utils/*"],
-        "Types/*": ["src/types/*"]
       }
     }
   }

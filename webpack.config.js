@@ -18,8 +18,9 @@ module.exports = {
         extensions: ['.tsx', '.ts', '.js'],
         alias: {
             '@': path.resolve(__dirname, 'shadcn/'),
+            Game: path.resolve(__dirname, 'src/game/'),
+            Types: path.resolve(__dirname, 'src/types/'),
             Utils: path.resolve(__dirname, 'src/utils/'),
-            Types: path.resolve(__dirname, 'src/types/')
         }
     },
     module: {
