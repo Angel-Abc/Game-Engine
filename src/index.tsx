@@ -1,4 +1,3 @@
-import React from 'react'
 import { createRoot } from 'react-dom/client'
 import { GameInfoLoader } from 'Game/loader/gameInfoLoader'
 import { ResourceProvider } from 'Utils/resourceProvider'
@@ -31,9 +30,9 @@ const start = async() => {
     document.body.innerHTML = '<div id="app"></div>'
     const root = createRoot(document.getElementById('app')!)
     root.render(
-        <App engine={engine} />
+        <App />
     )
-    engine.start()
+    await engine.start()
 }
 start()
 

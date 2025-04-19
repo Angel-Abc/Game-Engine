@@ -3,7 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { stat } = require('fs')
 
 module.exports = {
-    entry: './src/index.tsx',
+    entry: {
+        app: './src/index.tsx'
+    },
     output: {
         filename: '[name].bundle.js',
         path: path.resolve(__dirname, 'dist'),
@@ -57,11 +59,7 @@ module.exports = {
             }
         ]
     },
-    devtool: 'inline-source-map',
-    devServer: {
-        static: './dist',
-        port: 3000
-    },
+    devtool: 'source-map',
     performance: {
         hints: false,
         maxEntrypointSize: 512000,
