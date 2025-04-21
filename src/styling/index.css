@@ -1,0 +1,8 @@
+@import "./variables.css";
+@import "./reset.css";
+
+body {
+    background-color: oklch(0.656 0.241 354.308);
+    width: 100vw;
+    height: 100vh;
+}

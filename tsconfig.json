@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true,
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "sourceMap": true,
+      "allowJs": true,
+      "noEmit": false,
+      "resolveJsonModule": true,
+      "jsx": "react-jsx",
+      "outDir": "./dist",
+      "baseUrl": "./",
+      "paths": {
+        "Game/*": ["src/game/*"],
+        "Utils/*": ["src/utils/*"],
+        "State/*": ["src/state/*"],
+        "Styling/*": ["src/styling/*"],
+        "Types/*": ["src/types/*"]
+      }
+    }
+  }
+  
